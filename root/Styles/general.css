@@ -28,21 +28,13 @@ a {
   color: rgb(41, 40, 39);
 }
 
-h1 {
+.header {
+  margin-top: 20px;
   margin-bottom: 0;
-  font-size: 300%;
-}
-
-h5 {
-  margin-top: 0;
-}
-
-h1:active, h5:active {
-  opacity: 80%;
 }
 
 h2 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .links{
