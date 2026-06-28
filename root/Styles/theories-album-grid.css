@@ -1,0 +1,44 @@
+.navigation {
+  background-color: #23323d;
+  border: 0;
+  color: #EAE0CF;
+  font-size: 20px;
+  width: 40%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 18px;
+}
+
+.navigation:hover {
+  opacity: 70%;
+}
+
+.navigation:active {
+  opacity: 30%;
+}
+
+.grid {
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-flow: row;
+}
+
+.albums {
+  font-size: smaller;
+}
+
+.albums img{
+  border-radius: 10px;
+  width: 70%;
+}
+
+.albums:hover {
+  opacity: 70%;
+}
+
+.albums:active {
+  opacity: 30%;
+}
