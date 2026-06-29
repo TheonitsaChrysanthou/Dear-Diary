@@ -10,3 +10,41 @@
     margin-right: 10%;
     text-align: center;
 }
+
+.inside {
+  padding-left: 100px;
+}
+
+.text {
+  color: rgb(41, 40, 39);
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.sopro {
+  color: rgb(161, 36, 36);
+}
+
+.dialogue {
+  position: relative;
+}
+
+.paragraph {
+  z-index: 1;
+}
+
+.name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.devider {
+  width: 100%;
+  margin: 27px;
+  border: none;
+  height: 1px;
+  background-color: rgb(161, 36, 36);
+}
